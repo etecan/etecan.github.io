@@ -39,6 +39,11 @@ html {
     margin-bottom: 12px;
 }
 
+.showcase img {
+    max-width: 90%;
+    height: auto;
+}
+
 .showcase-title {
     margin-bottom: 5px;
     padding-top: 35px;
