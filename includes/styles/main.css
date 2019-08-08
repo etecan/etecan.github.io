@@ -5,7 +5,6 @@ html {
 }
 
 .navbar {
-    font-family: "SF Text";
     font-weight: 400;
     padding: 0;
     height: 44px;
@@ -15,9 +14,12 @@ html {
 
 }
 
+
 .navbar-nav>li>a {
     padding-top: 0;
     padding-bottom: 0;
+    color: #FFF;
+    width: 150px;
 }
 
 .navbar-brand {
