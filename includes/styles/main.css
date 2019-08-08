@@ -47,16 +47,17 @@ html {
 .showcase-title {
     margin-bottom: 5px;
     padding-top: 35px;
-    font-size: 48px;
+    font-size: 3em;
     text-align: center;
     font-weight: 600;
 }
 
 .showcase-subtitle {
     text-align: center;
-    font-size: 24px;
+    font-size: 1.4em;
     line-height: 26px;
     white-space: pre-line;
+    padding: 0px 10px 0 10px;
 }
 
 .showcase-image {
