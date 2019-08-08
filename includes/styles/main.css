@@ -30,6 +30,15 @@ html {
     color: #ffffff;
 }
 
+.navbar-toggler {
+    padding: 0;
+    font-size: 0;
+    line-height: 0;
+    background-color: #FFF;
+    border: 0;
+    border-radius: .25rem;
+}
+
 .navbar-nav li a:hover {
     color: #bdbdbd;
 }
