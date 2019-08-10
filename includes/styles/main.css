@@ -4,6 +4,10 @@ html {
     font-weight: 400;
 }
 
+.content {
+    margin-top: 46px;
+}
+
 .navbar {
     background-color: rgba(45, 45, 45, 0.98);
 }
@@ -44,8 +48,32 @@ html {
 }
 
 .showcase {
-    background-color: #FAFAFA;
+    background-color: #F8F8F8;
     margin-bottom: 12px;
+}
+
+@media only screen and (min-width: 576px) {
+    .small-showcase .col-sm:first-child{
+        margin-right: 6px;
+        margin-left: 12px;
+   }
+   
+   .small-showcase .col-sm:last-child{
+       margin-right: 12px;
+       margin-left: 6px;
+   }
+  }
+
+.small-showcase .showcase {
+    vertical-align: middle;
+    height: 512px;
+    margin-bottom: 12px;
+    padding-top: 10px;
+}
+
+.showcase.dark{
+    background-color: #131218;
+    color: #FFF;
 }
 
 .showcase img {
@@ -59,7 +87,22 @@ html {
     font-size: 3em;
     text-align: center;
     font-weight: 600;
+    letter-spacing: -2px;
+    line-height: 45px;
 }
+
+.showcase-title-phone{
+    margin-bottom: 5px;
+    padding-top: 200px;
+    font-size: 2.5em;
+    text-align: center;
+    white-space: pre-line;
+    font-weight: 600;
+    padding-left: 250px;
+    letter-spacing: -2px;
+    line-height: 45px;
+}
+
 
 .showcase-subtitle {
     text-align: center;
@@ -69,7 +112,45 @@ html {
     padding: 0px 10px 0 10px;
 }
 
-.showcase-image {
-    margin-top: 40px;
+.showcase-subtitle-phone {
     text-align: center;
+    font-size: 0.9em;
+    line-height: 26px;
+    white-space: pre-line;
+    padding: 0px 10px 0 10px;
+    padding-left: 250px;
+}
+
+.showcase-image {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.showcase-image-phone {
+    padding-top: 100px;
+    text-align: left;
+    padding-bottom: 100px;
+}
+
+
+.showcase-links {
+    text-align: center;
+    font-size: 0.9em;
+    line-height: 26px;
+}
+
+.showcase-links-phone{
+    text-align: center;
+    font-size: 1.4em;
+    line-height: 26px;
+    padding-left: 250px;
+}
+
+.showcase-links ::after {
+    {   content: url("data:image/svg+xml; utf8, %3Csvg%20class%3D%22icon%22%20height%3D%22512%22%20viewBox%3D%220%200%201024%201024%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M657.067%20512l-365.619-379.904c-6.356-6.44-10.282-15.293-10.282-25.062s3.926-18.622%2010.286-25.066c6.315-6.409%2015.095-10.383%2024.803-10.383%209.708%200%2018.488%203.973%2024.802%2010.382l400.9%20404.894c6.356%206.44%2010.282%2015.293%2010.282%2025.062s-3.926%2018.622-10.286%2025.066l-400.892%20404.886c-13.722%2013.875-35.891%2013.824-49.613%200s-13.722-36.198%200-50.125l365.619-379.75z%22%20fill%3D%22%23666666%22%20%2F%3E%3C%2Fsvg%3E");
+        display:block;
+        width:22px;
+        height:10px;
+        margin:10px 5px 0 10px;
+    }
 }
