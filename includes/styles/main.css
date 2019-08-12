@@ -212,3 +212,17 @@ html {
     display: inline-block;
     vertical-align: middle;
     }
+
+
+.phone-links a:after {
+        background-position: right;
+        background-image: url(http://etecan.github.io/includes/images/svg/links-before.svg);
+        background-size: 0.7em 0.7em;
+        background-repeat: no-repeat;
+        content: "";
+        width: 0.7em;
+        height: 0.7em;
+        padding-left: 20px;
+        display: inline-block;
+        vertical-align: middle;
+        }
