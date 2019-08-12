@@ -200,11 +200,15 @@ html {
 }
 
 
-.showcase-links ::after {
-    {   content: url("data:image/svg+xml; utf8, %3Csvg%20class%3D%22icon%22%20height%3D%22512%22%20viewBox%3D%220%200%201024%201024%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M657.067%20512l-365.619-379.904c-6.356-6.44-10.282-15.293-10.282-25.062s3.926-18.622%2010.286-25.066c6.315-6.409%2015.095-10.383%2024.803-10.383%209.708%200%2018.488%203.973%2024.802%2010.382l400.9%20404.894c6.356%206.44%2010.282%2015.293%2010.282%2025.062s-3.926%2018.622-10.286%2025.066l-400.892%20404.886c-13.722%2013.875-35.891%2013.824-49.613%200s-13.722-36.198%200-50.125l365.619-379.75z%22%20fill%3D%22%23666666%22%20%2F%3E%3C%2Fsvg%3E");
-        display:block;
-        width:22px;
-        height:10px;
-        margin:10px 5px 0 10px;
+.showcase-links a:after {
+    background-position: right;
+    background-image: url(http://etecan.github.io/includes/images/svg/links-before.svg);
+    background-size: 0.9em 0.9em;
+    background-repeat: no-repeat;
+    content: "";
+    width: 0.9em;
+    height: 0.9em;
+    padding-left: 16px;
+    display: inline-block;
+    vertical-align: middle;
     }
-}
