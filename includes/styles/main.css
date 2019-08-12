@@ -173,8 +173,13 @@ html {
 }
 
 .phone-buy {
-    margin-left: 332px;
+    margin-left: 200px;
 }
+}
+
+.btn-wrapper {
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 
