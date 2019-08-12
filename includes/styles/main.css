@@ -47,6 +47,16 @@ html {
     color: #bdbdbd;
 }
 
+@media only screen and (min-width: 576px) {
+    .hamburger-menu {
+        display: none;
+    }
+   }
+
+.hamburger-menu {
+    padding:0;
+}
+
 .showcase {
     background-color: #F8F8F8;
     margin-bottom: 12px;
