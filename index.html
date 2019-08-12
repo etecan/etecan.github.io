@@ -16,27 +16,32 @@
 <body>
 	<div id="main">
 		<div class="header">
-			<nav class="navbar py-0 navbar-expand-lg justify-content-center fixed-top">
+			<nav class="navbar py-0 navbar-expand-lg">
 				<div class="container">
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-						aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
+					<div class="d-flex">
+									<button class="hamburger-menu" type="button" data-toggle="collapse" data-target="#myNavbar">
+											<span class="navbar-toggler-icon"></span>
+										</button>
+
+						<span class="w-100 d-lg-none d-block">
+							<!-- hidden spacer to center brand on mobile --></span>
+						<div class="w-100 text-right">
+						</div>
+					</div>
 					<a class="navbar-brand" href="#"><img src="includes/images/logo.png" height="20px"></a>
-					<div class="collapse navbar-collapse justify-content-center " id="navbarNavDropdown">
-						<ul class="navbar-nav">
+					<div class="collapse navbar-collapse flex-grow-1 justify-content-center" id="myNavbar">
+						<ul class="navbar-nav flex-nowrap">
 							<li class="nav-item">
-								<a class="nav-link" href="https://etecan.github.io/index.html">Início</a>
+								<a href="#" class="nav-link">Link</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="https://etecan.github.io/pages/phones.html">Celulares</a>
+								<a href="#" class="nav-link">Link</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="https://etecan.github.io/pages/tablets.html">Tablets</a>
+								<a href="#" class="nav-link">Link</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#"
-									onClick="alert('Xingling não tem garantia, você comprou sabendo!')">Suporte</a>
+								<a href="#" class="nav-link">Link</a>
 							</li>
 						</ul>
 					</div>

@@ -19,9 +19,8 @@ html {
 
 .navbar-brand {
     padding-top: 0;
-    font-size: 0;
-    margin-right: 0;
 }
+
 
 .navbar-nav li a {
     text-align: center;
@@ -34,15 +33,6 @@ html {
     color: #ffffff;
 }
 
-.navbar-toggler {
-    padding: 0;
-    font-size: 0;
-    line-height: 0;
-    background-color: #FFF;
-    border: 0;
-    border-radius: .25rem;
-}
-
 .navbar-nav li a:hover {
     color: #bdbdbd;
 }
@@ -50,6 +40,12 @@ html {
 @media only screen and (min-width: 576px) {
     .hamburger-menu {
         display: none;
+        background-image: url(http://etecan.github.io/includes/images/svg/links-before.svg);
+        background-size: 0.9em 0.9em;
+        background-repeat: no-repeat;
+        content: "";
+        width: 0.9em;
+        height: 0.9em;
     }
    }
 
@@ -179,7 +175,7 @@ html {
 
 .btn-wrapper {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: .0px;
 }
 
 
